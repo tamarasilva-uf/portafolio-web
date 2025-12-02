@@ -1,0 +1,15 @@
+/*.space-mono-regular {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+.contenedor {
+  margin: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: rgb(112, 112, 219);
+}*/
+.banner{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}

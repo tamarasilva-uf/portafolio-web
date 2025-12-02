@@ -1,0 +1,101 @@
+.proyecto-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+    padding: 0 70px;
+}
+
+.proyecto-img {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.proyecto-lateral {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.proyectos-titulo {
+    font-size: 50px;
+    margin-bottom: 50px;
+    color: rgba(5, 50, 100, 1);
+    margin-left: 120px;
+}
+
+.proyecto-subtitulo {
+    font-size: 150px;
+    margin-bottom: 25px; 
+    text-transform: uppercase;
+}
+
+.proyecto-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.proyecto-columna-texto {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+    
+.proyecto-img {
+    width: 280px;
+    border-radius: 10px;
+}
+
+.proyecto-info {
+    display: flex;
+    flex-direction: column;
+}
+.proyecto-nombre {
+    font-family: "Anton SC", sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: rgba(5, 50, 100, 1);
+    margin-bottom: 20px;
+}
+
+.proyecto-subtitulo {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Anton SC", sans-serif;
+    color: #053264;
+    text-transform: uppercase;
+}
+.proyecto-btn {
+    margin: 40px auto;
+    background-color: transparent;
+    border: none;
+    margin-bottom: 70px;
+    display: block;
+    
+}
+.proyecto-btn img {
+    width: 300px;
+    
+}
+.proyecto-btn:hover {
+    opacity: 0.8;
+}
+
+@media (max-width: 900px) {
+    .proyecto-grid {
+        grid-template-columns: 1fr; 
+        justify-items: center;
+        text-align: center;
+    }
+
+    .proyecto-lateral {
+        align-items: center;
+    }
+
+    .proyectos-titulo {
+        margin-left: 0;
+        text-align: center;
+    }
+}

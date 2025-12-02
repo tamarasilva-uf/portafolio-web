@@ -1,0 +1,29 @@
+.contacto-titulo {
+    font-size: 60px;
+    color: rgba(5, 50, 100, 1);
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contacto-descripcion {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+    color: rgba(5, 50, 100, 1);
+}
+.contacto-redes {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.contacto-redes img {
+    width: 70px;
+    transition: transform 0.3s ease;
+}
+
+.contacto-redes img:hover {
+    transform: scale(1.15);
+}

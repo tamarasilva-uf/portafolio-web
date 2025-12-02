@@ -1,0 +1,48 @@
+.barra{
+    display: grid;
+    grid-template-columns: auto 1fr 1fr 1fr;
+    align-items: center;
+    padding: 0 40px;
+    gap: 40px;
+}
+
+.barra-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.barra-logo img{
+    width: 30px;
+}
+
+.barra-links{
+    display: contents;
+}
+
+.barra-texto{
+    display: inline-block;
+    font-family: "Anton SC", sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    color: rgba(5, 50, 100, 1);
+    transition: 0.3s;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    
+}
+.barra-texto::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0%;
+    height: 3px;
+    background-color: rgba(198, 159, 213, 1);
+    transition: width 0.3s ease;
+}
+.barra-texto:hover::after{
+    width: 100%;
+}

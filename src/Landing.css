@@ -1,0 +1,68 @@
+.landing {
+    height: 300%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 70px;
+}
+.acerca {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.landing-img img {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+}
+
+.landing-contenido {
+    max-width: 400px;
+}
+
+.landing-titulo {
+    font-size: 50px;
+    color: rgba(5, 50, 100, 1);
+    margin-bottom: 0px;
+}
+.landing-subtitulo {
+    font-size: 30px;
+    color: rgba(5, 50, 100, 1);
+    margin-bottom: 0px;
+}
+
+.landing-text {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    color: rgba(5, 50, 100, 1);
+    margin-bottom: 20px;
+}
+.landing-redes{
+    display: flex;
+    gap: 69px;
+}
+.landing-redes img {
+    width: 50px;
+    transition: transform 0.3s ease;
+}
+.landing-redes img:hover {
+    transform: scale(1.2);
+}
+.softwares-section {
+    width: 100%;
+    padding: 40px 70px;
+    display: block;
+}
+.softwares {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+.softwares img {
+    width: 60px; 
+    height: auto;
+}
